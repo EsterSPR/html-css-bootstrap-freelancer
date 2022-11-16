@@ -4,17 +4,39 @@
     padding: 0;
 }
 
+/*NAV*/
+
 nav {
     background-color: #2C3E50;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px;
+    color: #fff;
 }
+
+.nav-right-mobile, .nav-right {
+    text-align: right;
+}
+
+.nav-right {
+    display: none;
+}
+
+/*HEADER*/
 
 header {
     background-color: #1ABC9C;
     width: 100%;
     padding: 30px;
+    color: #fff;
 }
+
+#header-content {
+    width: 100%;
+    text-align: center;
+    height: 200px;
+}
+
+/*MAIN*/
 
 section {
     color: #2C3E50;
@@ -24,10 +46,112 @@ section {
 
 section:nth-child(2) {
     background-color: #1ABC9C;
+    color: #fff;
 }
+
+#portfolio-content {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+#portfolio .card {
+    background-color: #BA4A63;
+    border: 1px solid #2C3E50;
+    text-align: center;
+}
+
+#about {
+    padding: 50px 10%;
+    width: 100%;
+}
+
+#about-content {
+    width: 100%;
+    height: 200px;
+    background-color:#2C3E50;
+}
+
+#about button {
+    margin-top: 50px;
+}
+
+.button-container {
+    text-align: center;
+    width: 100%;
+}
+
+#contact {
+    width: 100%;
+    padding: 50px 10%;
+}
+
+#contact-content {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background-color: #BA4A63;
+}
+
+/*FOOTER*/
 
 footer {
     background-color: #2C3E50;
     width: 100%;
-    padding: 30px;
+    color: #fff;
+}
+
+#footer-top {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    background-color: #3A546D;
+}
+
+#footer-content {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background-color:#1ABC9C;
+}
+
+#footer-bottom {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav-right-mobile {
+        display: none;
+    }
+    
+    .nav-right {
+        display: block;
+    }
+
+    section {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section {
+        padding: 0 15%;
+    }
+
+    section:first-child {
+        padding: 50px 10%;
+    }
+
+    nav {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #footer-top {
+        padding: 50px 10%;
+    }
+
 }
