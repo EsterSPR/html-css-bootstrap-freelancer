@@ -9,12 +9,31 @@
 nav {
     background-color: #2C3E50;
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 15px 20px;
     color: #fff;
+}
+
+.nav-right-mobile>button:hover i {
+    color: #2C3E50;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+.nav-item:hover a {
+    color: #2C3E50;
+    background-color: #fff;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
 }
 
 .nav-right-mobile, .nav-right {
     text-align: right;
+    color: #fff;
 }
 
 .nav-right {
@@ -146,8 +165,8 @@ footer {
     }
 
     nav {
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     #footer-top {
