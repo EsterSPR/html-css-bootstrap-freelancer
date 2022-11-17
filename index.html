@@ -50,71 +50,69 @@
     <main>
         <section id="portfolio">
             <div id="portfolio-content">
-                <h2>START BOOTSTRAP</h2>
-            <div class="star-divider"><hr class="blue-hr"><i class="fa-solid fa-star"></i><hr class="blue-hr"></div>
+                <h3>PORTFOLIO</h3>
+                <div class="star-divider"><hr class="blue-hr"><i class="fa-solid fa-star"></i><hr class="blue-hr"></div>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-               
-                <div class="col">
-                    <div class="card" style="background-color: #BA4A63;">
-                        <img src="./img/cabin.png" class="card-img-top" alt="portfolio-img-cabin">
-                    </div>
+            <div class="container">
+                <div class="row g-2">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 border bg-light portfolio-rounded" style="background-image: url(./img/cabin.png); background-size: cover; background-position: center;"></div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 border bg-light portfolio-rounded" style="background-image: url(./img/cake.png); background-size: cover; background-position: center;"></div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 border bg-light portfolio-rounded" style="background-image: url(./img/circus.png); background-size: cover; background-position: center;"></div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 border bg-light portfolio-rounded" style="background-image: url(./img/game.png); background-size: cover; background-position: center;"></div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 border bg-light portfolio-rounded" style="background-image: url(./img/safe.png); background-size: cover; background-position: center;"></div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 border bg-light portfolio-rounded" style="background-image: url(./img/submarine.png); background-size: cover; background-position: center;"></div>
+                  </div>
                 </div>
-                
-                <div class="col">
-                    <div class="card">
-                        <img src="./img/cake.png" class="card-img-top" alt="portfolio-img-cake">
-                    </div>
-                </div>
-                
-                <div class="col">
-                    <div class="card">
-                        <img src="./img/circus.png" class="card-img-top" alt="portfolio-img-circus">
-                    </div>
-                </div>
-                
-                <div class="col">
-                    <div class="card">
-                        <img src="./img/game.png" class="card-img-top" alt="portfolio-img-game">
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <img src="./img/safe.png" class="card-img-top" alt="portfolio-img-safe">
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <img src="./img/submarine.png" class="card-img-top" alt="portfolio-img-submarine">
-                    </div>
-                </div>
-              
-            </div>
+              </div>
         </section>
 
         <section id="about">
             <div id="about-content">
-                <div class="container text-center">
+                <h3>ABOUT</h3>
+                <div class="star-divider"><hr class="white-hr"><i class="fa-solid fa-star"></i><hr class="white-hr"></div>
+            </div>
+                <div class="container text-left">
                     <div class="row row-cols-1 row-cols-md-2 g-3">
-                      <div class="col">
-                        blablabla
+                      <div class="col px-3">
+                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
                       </div>
-                      <div class="col">
-                        blablabla
+                      <div class="col px-3">
+                        Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                       </div>
                     </div>
                 </div>
-            </div>
             <div class="button-container">
-                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
             </div>
         </section>
 
         <section id="contact">
-            <div id="contact-content">blablabla</div>
-            <button type="button" class="btn btn-success">Success</button>
+            <div id="contact-content">
+                <h3>CONTACT ME</h3>
+                <div class="star-divider"><hr class="blue-hr"><i class="fa-solid fa-star"></i><hr class="blue-hr"></div>
+                <form>
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email">
+                    <label for="number" class="form-label">Phone Number</label>
+                    <input type="text" id="number">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" rows="10" cols="80"></textarea>
+                </form>
+                <div id="contact-btn-container"><button class="btn btn-primary" type="submit">Send</button></div>
+            </div>
         </section>
     </main>
 

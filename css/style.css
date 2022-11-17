@@ -110,19 +110,28 @@ section:nth-child(2) {
     text-align: center;
 }
 
+.portfolio-rounded {
+    border-radius: 10px;
+    height: 350px;
+}
+
 #about {
     padding: 50px 10%;
     width: 100%;
+
 }
 
 #about-content {
     width: 100%;
-    height: 200px;
-    background-color:#2C3E50;
+    text-align: center;
 }
 
 #about button {
     margin-top: 50px;
+}
+
+#about button:hover {
+    color: #1ABC9C;
 }
 
 .button-container {
@@ -138,8 +147,42 @@ section:nth-child(2) {
 #contact-content {
     width: 100%;
     text-align: center;
-    height: 100px;
-    background-color: #BA4A63;
+}
+
+#contact-btn-container {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact button {
+    background-color:#1ABC9C;
+    color: #fff;
+    border: #1ABC9C 1px solid;
+}
+
+#contact button:hover {
+    background-color:#fff;
+    color: #1ABC9C;
+    border: #1ABC9C 1px solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto 10px auto;
+}
+
+form input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
 }
 
 /*FOOTER*/
@@ -181,7 +224,11 @@ footer {
     }
 
     section {
-        padding: 0 10%;
+        padding: 30px 10%;
+    }
+
+    .portfolio-rounded {
+        height: 250px;
     }
 }
 
@@ -192,6 +239,10 @@ footer {
 
     section:first-child {
         padding: 50px 10%;
+    }
+
+    .portfolio-rounded {
+        height: 250px;
     }
 
     nav {
