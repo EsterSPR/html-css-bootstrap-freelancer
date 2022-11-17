@@ -29,6 +29,10 @@ nav {
     background-color: #fff;
 }
 
+.nav-item:active a {
+    color: #fff;
+}
+
 .nav-left {
     display: flex;
     align-items: center;
@@ -203,14 +207,57 @@ footer {
 #footer-content {
     width: 100%;
     text-align: center;
-    height: 100px;
-    background-color:#1ABC9C;
+}
+
+#footer-col-content {
+    margin: 20px auto;
+    line-height: 35px;
+}
+
+#footer-col-content a {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 5px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+#footer-col-content a:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #3A546D;
+}
+
+#facebook {
+    padding: 10px 15px;
+}
+
+#google {
+    padding: 10px;
+}
+
+#twitter {
+    padding: 10px 12px;
+}
+
+#linkedin {
+    padding: 10px 13px;
+}
+
+#footer-link {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+#footer-link:hover {
+    text-decoration: underline;
 }
 
 #footer-bottom {
     width: 100%;
     padding: 50px;
     text-align: center;
+    font-size: 10pt;
 }
 
 @media screen and (min-width: 768px) {
@@ -229,6 +276,14 @@ footer {
 
     .portfolio-rounded {
         height: 250px;
+    }
+
+    #footer-col-content {
+        margin: 0;
+    }
+
+    #footer-col-content a {
+        margin: 2px;
     }
 }
 
